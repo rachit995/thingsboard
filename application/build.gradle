@@ -20,7 +20,9 @@ buildscript {
         osPackageVersion = "3.8.0"
     }
     repositories {
-        jcenter()
+       maven {
+			url "http://central.maven.org/maven2/"
+		} 
     }
     dependencies {
         classpath("com.netflix.nebula:gradle-ospackage-plugin:${osPackageVersion}")

@@ -530,6 +530,7 @@
                 <groupId>org.fortasoft</groupId>
                 <artifactId>gradle-maven-plugin</artifactId>
                 <configuration>
+				<gradleDistribution>file:/C:/Users/rachit.sharma/.m2/repository/org/gradle/gradle-tooling-api/2.13/gradle-2.13-bin.zip</gradleDistribution>
                     <tasks>
                         <task>build</task>
                         <task>buildDeb</task>
